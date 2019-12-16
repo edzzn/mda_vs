@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dBDiagram dslVersion="1.0.0.0" Id="556ebcbf-e315-4002-8f6d-3e490814a47e" absoluteBounds="0, 0, 11, 9.875" name="Test">
+  <exampleModelMoniker Id="3a546f76-88c4-410e-93ba-b9f9d6080c70" />
+  <nestedChildShapes>
+    <tablaCompartmentShape Id="f498de45-b223-407c-9cb9-bad6ddb10f83" absoluteBounds="3.875, 0.5, 1.5, 3.0990657552083327">
+      <Tabla nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Tabla1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c90380ee-7871-4ec3-8c62-7d15e58d1242" absoluteBounds="3.8900000000000006, 1.51, 1.4700000000000002, 0.63399251302083326" name="Campos" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="dc8d2c39-a07f-4e5a-a77f-a7c466d0b95d" absoluteBounds="3.8900000000000006, 2.1539925130208335, 1.4700000000000002, 0.44169108072916663" name="ClavePrimaria" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="68613e25-c0cd-4313-aeb4-dc1ae170c3b2" absoluteBounds="3.8900000000000006, 2.60568359375, 1.4700000000000002, 0.44169108072916663" name="Relaciones" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="d38a33d1-930d-4867-a5bc-bc084c8a901a" absoluteBounds="3.8899999999999997, 3.0573746744791661, 1.4700000000000002, 0.44169108072916663" name="Triggers" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </tablaCompartmentShape>
+    <tablaCompartmentShape Id="bebedb5c-9080-4a19-9d78-9d8b48154471" absoluteBounds="3.875, 3.75, 1.5, 2.7144628906249997">
+      <Tabla nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Tabla2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c31a37bd-e618-434f-996a-47104dfecc65" absoluteBounds="3.89, 4.76, 1.4700000000000002, 0.44169108072916663" name="Campos" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="9bdacd7a-6f94-4a64-903d-c83bd0e51a84" absoluteBounds="3.89, 5.2116910807291665, 1.4700000000000002, 0.44169108072916663" name="ClavePrimaria" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="6730b271-dab9-480a-9685-4f92af5a2ffa" absoluteBounds="3.89, 5.6633821614583333, 1.4700000000000002, 0.44169108072916663" name="Relaciones" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="b406008c-c6b2-41ab-ad98-be630ba6d4b2" absoluteBounds="3.89, 6.1150732421875, 1.4700000000000002, 0.2493896484375" name="Triggers" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </tablaCompartmentShape>
+    <tablaCompartmentShape Id="a3e67ab2-9630-4130-b51c-182a6ba5bc6e" absoluteBounds="3.875, 6.75, 1.5, 2.9067643229166649">
+      <Tabla nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Tabla3" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6330f2b-8fb9-4df2-bfbb-7334e0b4d659" absoluteBounds="3.89, 7.76, 1.4700000000000002, 0.44169108072916663" name="Campos" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="51c62304-6d25-4867-9526-304cb8272cc6" absoluteBounds="3.89, 8.2116910807291674, 1.4700000000000002, 0.44169108072916663" name="ClavePrimaria" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="ac91b3e2-294c-4a8e-8e89-993ae6ef5e88" absoluteBounds="3.89, 8.6633821614583333, 1.4700000000000002, 0.44169108072916663" name="Relaciones" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="ac7d1183-ec7c-4bea-a20d-16afde7e6453" absoluteBounds="3.89, 9.1150732421875, 1.4700000000000002, 0.44169108072916663" name="Triggers" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </tablaCompartmentShape>
+    <relacionShape Id="df1e8b58-3240-4b18-a734-c2af374ff1a4" absoluteBounds="0.875, 4.5, 1.5, 1">
+      <monikerRelacion nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Relacion1" />
+    </relacionShape>
+    <relacionTablaConnector Id="9f399daa-3b91-4740-ac83-dd513373566c" edgePoints="[(1.625 : 4.5); (1.625 : 2.04953287760417); (3.875 : 2.04953287760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <monikerRelacionReferenciasTabla Id="b717709b-096f-4517-a3c0-2267473a215b" />
+      <nodes>
+        <monikerRelacionShape Id="df1e8b58-3240-4b18-a734-c2af374ff1a4" />
+        <monikerCompartmentShape1 Id="f498de45-b223-407c-9cb9-bad6ddb10f83" />
+      </nodes>
+    </relacionTablaConnector>
+    <relacionTablaConnector Id="acddcaa7-aede-4c86-b49b-23fc3ecae225" edgePoints="[(2.375 : 5); (3.875 : 5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <monikerRelacionReferenciasTabla Id="8187fddb-cdd6-4278-ad39-9eec6ab10366" />
+      <nodes>
+        <monikerRelacionShape Id="df1e8b58-3240-4b18-a734-c2af374ff1a4" />
+        <monikerCompartmentShape1 Id="bebedb5c-9080-4a19-9d78-9d8b48154471" />
+      </nodes>
+    </relacionTablaConnector>
+    <relacionTablaConnector Id="82dcb0ea-e0d1-46f2-82ff-15f8accbc63c" edgePoints="[(1.625 : 5.5); (1.625 : 8.20338216145833); (3.875 : 8.20338216145833)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <monikerRelacionReferenciasTabla Id="fc824bed-bafe-4d20-9c9c-26c6cbc9749c" />
+      <nodes>
+        <monikerRelacionShape Id="df1e8b58-3240-4b18-a734-c2af374ff1a4" />
+        <monikerCompartmentShape1 Id="a3e67ab2-9630-4130-b51c-182a6ba5bc6e" />
+      </nodes>
+    </relacionTablaConnector>
+    <triggerCompartmentShape Id="4d12b866-d312-4788-b8e7-2d9367c14e17" absoluteBounds="7.125, 4.375, 1.5, 2.1956835937499992">
+      <monikerTrigger nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Trigger1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27e81d81-2b16-43f3-a183-9c7cd6632f55" absoluteBounds="7.1400000000000006, 5.385, 1.4700000000000002, 0.63399251302083326" name="Tablas" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="08672888-f9fc-43cd-80eb-4fa2ca0b0b2e" absoluteBounds="7.1400000000000006, 6.0289925130208335, 1.4700000000000002, 0.4416910807291663" name="Eventos" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </triggerCompartmentShape>
+    <eventoShape Id="0b12696c-cfa7-4e6b-a5b3-0f19d02bc14c" absoluteBounds="8.75, 3, 1.5, 1">
+      <monikerEvento nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Trigger1/Evento1" />
+    </eventoShape>
+    <triggerReferencesTableConnector Id="3ab20ae9-2cf2-4e63-a569-a5606edfdd8c" edgePoints="[(7.875 : 6.57068359375); (7.875 : 8.20338216145833); (5.375 : 8.20338216145833)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <monikerTriggerReferenciasTabla Id="4b8a78d2-5bb2-499f-abc3-c395e9124c05" />
+      <nodes>
+        <monikerTriggerCompartmentShape Id="4d12b866-d312-4788-b8e7-2d9367c14e17" />
+        <monikerCompartmentShape1 Id="a3e67ab2-9630-4130-b51c-182a6ba5bc6e" />
+      </nodes>
+    </triggerReferencesTableConnector>
+    <triggerReferencesTableConnector Id="4a751a79-56e5-47f5-8fbc-fe1a6e150829" edgePoints="[(7.875 : 4.375); (7.875 : 2.04953287760417); (5.375 : 2.04953287760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <monikerTriggerReferenciasTabla Id="77cc9d74-2ff8-4876-91c6-82e3448bd4a7" />
+      <nodes>
+        <monikerTriggerCompartmentShape Id="4d12b866-d312-4788-b8e7-2d9367c14e17" />
+        <monikerCompartmentShape1 Id="f498de45-b223-407c-9cb9-bad6ddb10f83" />
+      </nodes>
+    </triggerReferencesTableConnector>
+  </nestedChildShapes>
+</dBDiagram>

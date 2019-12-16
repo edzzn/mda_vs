@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{93b8d98b-91a7-49bd-ac68-c07a34555d2b}</TemplateID>
+		<Name Package="{177dfacf-a979-4a1e-a52f-a81d23df543f}" ID="103"/>
+		<Description Package="{177dfacf-a979-4a1e-a52f-a81d23df543f}" ID="102"/>
+		<Icon Package="{177dfacf-a979-4a1e-a52f-a81d23df543f}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>DB.DB</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.DB">DB.DB</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.DB.diagram">DB.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

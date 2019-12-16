@@ -1,0 +1,1131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="edzzn.DB.DBDomainModel.Description" xml:space="preserve">
+    <value>Description for edzzn.DB.DB</value>
+    <comment>Description for DslLibrary &apos;DB&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBDomainModel.DisplayName" xml:space="preserve">
+    <value>DB</value>
+    <comment>DisplayName for DslLibrary &apos;DB&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModel.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;DBModel&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModel.DisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>DisplayName for DomainClass &apos;DBModel&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElement.Description" xml:space="preserve">
+    <value>Elements embedded in the model. Appear as boxes on the diagram.</value>
+    <comment>Description for DomainClass &apos;ExampleElement&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElement.DisplayName" xml:space="preserve">
+    <value>Example Element</value>
+    <comment>DisplayName for DomainClass &apos;ExampleElement&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElement/Name.Description" xml:space="preserve">
+    <value>Description for edzzn.DB.ExampleElement.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;ExampleElement&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElement/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;ExampleElement&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Tabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Tabla</value>
+    <comment>Description for DomainClass &apos;Tabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Tabla.DisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>DisplayName for DomainClass &apos;Tabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Tabla/Nombre.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Tabla.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Tabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Tabla/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Tabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Vista.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Vista</value>
+    <comment>Description for DomainClass &apos;Vista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Vista.DisplayName" xml:space="preserve">
+    <value>Vista</value>
+    <comment>DisplayName for DomainClass &apos;Vista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Vista/Name.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Vista.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Vista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Vista/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Vista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Vista/SqlQuery.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Vista.Sql Query</value>
+    <comment>Description for DomainProperty &apos;SqlQuery&apos; on DomainClass &apos;Vista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Vista/SqlQuery.DisplayName" xml:space="preserve">
+    <value>Sql Query</value>
+    <comment>DisplayName for DomainProperty &apos;SqlQuery&apos; on DomainClass &apos;Vista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ProcedimientoAlmacenado.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.ProcedimientoAlmacenado</value>
+    <comment>Description for DomainClass &apos;ProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ProcedimientoAlmacenado.DisplayName" xml:space="preserve">
+    <value>Procedimiento Almacenado</value>
+    <comment>DisplayName for DomainClass &apos;ProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ProcedimientoAlmacenado/Nombre.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.ProcedimientoAlmacenado.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ProcedimientoAlmacenado/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ProcedimientoAlmacenado/SqlQuery.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.ProcedimientoAlmacenado.Sql Query</value>
+    <comment>Description for DomainProperty &apos;SqlQuery&apos; on DomainClass &apos;ProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ProcedimientoAlmacenado/SqlQuery.DisplayName" xml:space="preserve">
+    <value>Sql Query</value>
+    <comment>DisplayName for DomainProperty &apos;SqlQuery&apos; on DomainClass &apos;ProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Campo.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Campo</value>
+    <comment>Description for DomainClass &apos;Campo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Campo.DisplayName" xml:space="preserve">
+    <value>Campo</value>
+    <comment>DisplayName for DomainClass &apos;Campo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Campo/Nombre.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Campo.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Campo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Campo/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Campo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Campo/Valor.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Campo.Valor</value>
+    <comment>Description for DomainProperty &apos;Valor&apos; on DomainClass &apos;Campo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Campo/Valor.DisplayName" xml:space="preserve">
+    <value>Valor</value>
+    <comment>DisplayName for DomainProperty &apos;Valor&apos; on DomainClass &apos;Campo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Campo/Tipo.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Campo.Tipo</value>
+    <comment>Description for DomainProperty &apos;Tipo&apos; on DomainClass &apos;Campo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Campo/Tipo.DisplayName" xml:space="preserve">
+    <value>Tipo</value>
+    <comment>DisplayName for DomainProperty &apos;Tipo&apos; on DomainClass &apos;Campo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ClavePrimaria.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.ClavePrimaria</value>
+    <comment>Description for DomainClass &apos;ClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ClavePrimaria.DisplayName" xml:space="preserve">
+    <value>Clave Primaria</value>
+    <comment>DisplayName for DomainClass &apos;ClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ClavePrimaria/Nombre.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.ClavePrimaria.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ClavePrimaria/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Relacion.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Relacion</value>
+    <comment>Description for DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Relacion/Nombre.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Relacion.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Relacion/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Relacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Trigger.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Trigger</value>
+    <comment>Description for DomainClass &apos;Trigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Trigger.DisplayName" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>DisplayName for DomainClass &apos;Trigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Trigger/Nombre.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Trigger.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Trigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Trigger/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Trigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Trigger/SQL.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Trigger.SQL</value>
+    <comment>Description for DomainProperty &apos;SQL&apos; on DomainClass &apos;Trigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Trigger/SQL.DisplayName" xml:space="preserve">
+    <value>SQL</value>
+    <comment>DisplayName for DomainProperty &apos;SQL&apos; on DomainClass &apos;Trigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Evento.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Evento</value>
+    <comment>Description for DomainClass &apos;Evento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Evento.DisplayName" xml:space="preserve">
+    <value>Evento</value>
+    <comment>DisplayName for DomainClass &apos;Evento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Evento/Nombre.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Evento.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Evento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Evento/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Evento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Evento/Tipo.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.Evento.Tipo</value>
+    <comment>Description for DomainProperty &apos;Tipo&apos; on DomainClass &apos;Evento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.Evento/Tipo.DisplayName" xml:space="preserve">
+    <value>Tipo</value>
+    <comment>DisplayName for DomainProperty &apos;Tipo&apos; on DomainClass &apos;Evento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleModelHasElements.Description" xml:space="preserve">
+    <value>Embedding relationship between the Model and Elements</value>
+    <comment>Description for DomainClass &apos;ExampleModelHasElements&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleModelHasElements.DisplayName" xml:space="preserve">
+    <value>Example Model Has Elements</value>
+    <comment>DisplayName for DomainClass &apos;ExampleModelHasElements&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleModelHasElements/DBModel.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleModelHasElements/DBModel.DisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>DisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleModelHasElements/DBModel.PropertyDisplayName" xml:space="preserve">
+    <value>Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleModelHasElements/Element.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Element&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleModelHasElements/Element.DisplayName" xml:space="preserve">
+    <value>Element</value>
+    <comment>DisplayName for DomainRole &apos;Element&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleModelHasElements/Element.PropertyDisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Element&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElementReferencesTargets.Description" xml:space="preserve">
+    <value>Reference relationship between Elements.</value>
+    <comment>Description for DomainClass &apos;ExampleElementReferencesTargets&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElementReferencesTargets.DisplayName" xml:space="preserve">
+    <value>Example Element References Targets</value>
+    <comment>DisplayName for DomainClass &apos;ExampleElementReferencesTargets&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElementReferencesTargets/Source.Description" xml:space="preserve">
+    <value>Description for edzzn.DB.ExampleRelationship.Target</value>
+    <comment>Description for DomainRole &apos;Source&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElementReferencesTargets/Source.DisplayName" xml:space="preserve">
+    <value>Source</value>
+    <comment>DisplayName for DomainRole &apos;Source&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElementReferencesTargets/Source.PropertyDisplayName" xml:space="preserve">
+    <value>Targets</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Source&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElementReferencesTargets/Target.Description" xml:space="preserve">
+    <value>Description for edzzn.DB.ExampleRelationship.Source</value>
+    <comment>Description for DomainRole &apos;Target&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElementReferencesTargets/Target.DisplayName" xml:space="preserve">
+    <value>Target</value>
+    <comment>DisplayName for DomainRole &apos;Target&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleElementReferencesTargets/Target.PropertyDisplayName" xml:space="preserve">
+    <value>Sources</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Target&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneTabla</value>
+    <comment>Description for DomainClass &apos;DBModelTieneTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTabla.DisplayName" xml:space="preserve">
+    <value>DBModel Tiene Tabla</value>
+    <comment>DisplayName for DomainClass &apos;DBModelTieneTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTabla/DBModel.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneTabla.DBModel</value>
+    <comment>Description for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTabla/DBModel.DisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>DisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTabla/DBModel.PropertyDisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTabla/Tabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneTabla.Tabla</value>
+    <comment>Description for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;DBModelTieneTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTabla/Tabla.DisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>DisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;DBModelTieneTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTabla/Tabla.PropertyDisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;DBModelTieneTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneVista.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneVista</value>
+    <comment>Description for DomainClass &apos;DBModelTieneVista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneVista.DisplayName" xml:space="preserve">
+    <value>DBModel Tiene Vista</value>
+    <comment>DisplayName for DomainClass &apos;DBModelTieneVista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneVista/DBModel.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneVista.DBModel</value>
+    <comment>Description for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneVista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneVista/DBModel.DisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>DisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneVista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneVista/DBModel.PropertyDisplayName" xml:space="preserve">
+    <value>Vista</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneVista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneVista/Vista.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneVista.Vista</value>
+    <comment>Description for DomainRole &apos;Vista&apos; on DomainRelationship &apos;DBModelTieneVista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneVista/Vista.DisplayName" xml:space="preserve">
+    <value>Vista</value>
+    <comment>DisplayName for DomainRole &apos;Vista&apos; on DomainRelationship &apos;DBModelTieneVista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneVista/Vista.PropertyDisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Vista&apos; on DomainRelationship &apos;DBModelTieneVista&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneProcedimientoAlmacenado.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneProcedimientoAlmacenado</value>
+    <comment>Description for DomainClass &apos;DBModelTieneProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneProcedimientoAlmacenado.DisplayName" xml:space="preserve">
+    <value>DBModel Tiene Procedimiento Almacenado</value>
+    <comment>DisplayName for DomainClass &apos;DBModelTieneProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneProcedimientoAlmacenado/DBModel.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneProcedimientoAlmacenado.DBModel</value>
+    <comment>Description for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneProcedimientoAlmacenado/DBModel.DisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>DisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneProcedimientoAlmacenado/DBModel.PropertyDisplayName" xml:space="preserve">
+    <value>Procedimiento Almacenado</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneProcedimientoAlmacenado/ProcedimientoAlmacenado.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneProcedimientoAlmacenado.ProcedimientoAlmacenado</value>
+    <comment>Description for DomainRole &apos;ProcedimientoAlmacenado&apos; on DomainRelationship &apos;DBModelTieneProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneProcedimientoAlmacenado/ProcedimientoAlmacenado.DisplayName" xml:space="preserve">
+    <value>Procedimiento Almacenado</value>
+    <comment>DisplayName for DomainRole &apos;ProcedimientoAlmacenado&apos; on DomainRelationship &apos;DBModelTieneProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneProcedimientoAlmacenado/ProcedimientoAlmacenado.PropertyDisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ProcedimientoAlmacenado&apos; on DomainRelationship &apos;DBModelTieneProcedimientoAlmacenado&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneCampo.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaTieneCampo</value>
+    <comment>Description for DomainClass &apos;TablaTieneCampo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneCampo.DisplayName" xml:space="preserve">
+    <value>Tabla Tiene Campo</value>
+    <comment>DisplayName for DomainClass &apos;TablaTieneCampo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneCampo/Tabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaTieneCampo.Tabla</value>
+    <comment>Description for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TablaTieneCampo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneCampo/Tabla.DisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>DisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TablaTieneCampo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneCampo/Tabla.PropertyDisplayName" xml:space="preserve">
+    <value>Campo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TablaTieneCampo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneCampo/Campo.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaTieneCampo.Campo</value>
+    <comment>Description for DomainRole &apos;Campo&apos; on DomainRelationship &apos;TablaTieneCampo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneCampo/Campo.DisplayName" xml:space="preserve">
+    <value>Campo</value>
+    <comment>DisplayName for DomainRole &apos;Campo&apos; on DomainRelationship &apos;TablaTieneCampo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneCampo/Campo.PropertyDisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Campo&apos; on DomainRelationship &apos;TablaTieneCampo&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneClavePrimaria.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaTieneClavePrimaria</value>
+    <comment>Description for DomainClass &apos;TablaTieneClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneClavePrimaria.DisplayName" xml:space="preserve">
+    <value>Tabla Tiene Clave Primaria</value>
+    <comment>DisplayName for DomainClass &apos;TablaTieneClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneClavePrimaria/Tabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaTieneClavePrimaria.Tabla</value>
+    <comment>Description for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TablaTieneClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneClavePrimaria/Tabla.DisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>DisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TablaTieneClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneClavePrimaria/Tabla.PropertyDisplayName" xml:space="preserve">
+    <value>Clave Primaria</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TablaTieneClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneClavePrimaria/ClavePrimaria.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaTieneClavePrimaria.ClavePrimaria</value>
+    <comment>Description for DomainRole &apos;ClavePrimaria&apos; on DomainRelationship &apos;TablaTieneClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneClavePrimaria/ClavePrimaria.DisplayName" xml:space="preserve">
+    <value>Clave Primaria</value>
+    <comment>DisplayName for DomainRole &apos;ClavePrimaria&apos; on DomainRelationship &apos;TablaTieneClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaTieneClavePrimaria/ClavePrimaria.PropertyDisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ClavePrimaria&apos; on DomainRelationship &apos;TablaTieneClavePrimaria&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneRelacion.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneRelacion</value>
+    <comment>Description for DomainClass &apos;DBModelTieneRelacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneRelacion.DisplayName" xml:space="preserve">
+    <value>DBModel Tiene Relacion</value>
+    <comment>DisplayName for DomainClass &apos;DBModelTieneRelacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneRelacion/DBModel.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneRelacion.DBModel</value>
+    <comment>Description for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneRelacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneRelacion/DBModel.DisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>DisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneRelacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneRelacion/DBModel.PropertyDisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneRelacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneRelacion/Relacion.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneRelacion.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;DBModelTieneRelacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneRelacion/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;DBModelTieneRelacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneRelacion/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;DBModelTieneRelacion&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionReferenciasTabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.RelacionReferenciasTabla</value>
+    <comment>Description for DomainClass &apos;RelacionReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionReferenciasTabla.DisplayName" xml:space="preserve">
+    <value>Relacion Referencias Tabla</value>
+    <comment>DisplayName for DomainClass &apos;RelacionReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionReferenciasTabla/Relacion.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.RelacionReferenciasTabla.Relacion</value>
+    <comment>Description for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionReferenciasTabla/Relacion.DisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>DisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionReferenciasTabla/Relacion.PropertyDisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Relacion&apos; on DomainRelationship &apos;RelacionReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionReferenciasTabla/Tabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.RelacionReferenciasTabla.Tabla</value>
+    <comment>Description for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;RelacionReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionReferenciasTabla/Tabla.DisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>DisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;RelacionReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionReferenciasTabla/Tabla.PropertyDisplayName" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;RelacionReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerTieneEvento.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TriggerTieneEvento</value>
+    <comment>Description for DomainClass &apos;TriggerTieneEvento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerTieneEvento.DisplayName" xml:space="preserve">
+    <value>Trigger Tiene Evento</value>
+    <comment>DisplayName for DomainClass &apos;TriggerTieneEvento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerTieneEvento/Trigger.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TriggerTieneEvento.Trigger</value>
+    <comment>Description for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;TriggerTieneEvento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerTieneEvento/Trigger.DisplayName" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>DisplayName for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;TriggerTieneEvento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerTieneEvento/Trigger.PropertyDisplayName" xml:space="preserve">
+    <value>Evento</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;TriggerTieneEvento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerTieneEvento/Evento.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TriggerTieneEvento.Evento</value>
+    <comment>Description for DomainRole &apos;Evento&apos; on DomainRelationship &apos;TriggerTieneEvento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerTieneEvento/Evento.DisplayName" xml:space="preserve">
+    <value>Evento</value>
+    <comment>DisplayName for DomainRole &apos;Evento&apos; on DomainRelationship &apos;TriggerTieneEvento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerTieneEvento/Evento.PropertyDisplayName" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Evento&apos; on DomainRelationship &apos;TriggerTieneEvento&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferenciasTabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TriggerReferenciasTabla</value>
+    <comment>Description for DomainClass &apos;TriggerReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferenciasTabla.DisplayName" xml:space="preserve">
+    <value>Trigger Referencias Tabla</value>
+    <comment>DisplayName for DomainClass &apos;TriggerReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferenciasTabla/Trigger.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TriggerReferenciasTabla.Trigger</value>
+    <comment>Description for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;TriggerReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferenciasTabla/Trigger.DisplayName" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>DisplayName for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;TriggerReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferenciasTabla/Trigger.PropertyDisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;TriggerReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferenciasTabla/Tabla.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TriggerReferenciasTabla.Tabla</value>
+    <comment>Description for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TriggerReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferenciasTabla/Tabla.DisplayName" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>DisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TriggerReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferenciasTabla/Tabla.PropertyDisplayName" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Tabla&apos; on DomainRelationship &apos;TriggerReferenciasTabla&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTrigger.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneTrigger</value>
+    <comment>Description for DomainClass &apos;DBModelTieneTrigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTrigger.DisplayName" xml:space="preserve">
+    <value>DBModel Tiene Trigger</value>
+    <comment>DisplayName for DomainClass &apos;DBModelTieneTrigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTrigger/DBModel.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneTrigger.DBModel</value>
+    <comment>Description for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneTrigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTrigger/DBModel.DisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>DisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneTrigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTrigger/DBModel.PropertyDisplayName" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DBModel&apos; on DomainRelationship &apos;DBModelTieneTrigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTrigger/Trigger.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.DBModelTieneTrigger.Trigger</value>
+    <comment>Description for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;DBModelTieneTrigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTrigger/Trigger.DisplayName" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>DisplayName for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;DBModelTieneTrigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBModelTieneTrigger/Trigger.PropertyDisplayName" xml:space="preserve">
+    <value>DBModel</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Trigger&apos; on DomainRelationship &apos;DBModelTieneTrigger&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;ExampleShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleShape.DisplayName" xml:space="preserve">
+    <value>Example Shape</value>
+    <comment>DisplayName for DomainClass &apos;ExampleShape&apos;</comment>
+  </data>
+  <data name="ExampleShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="edzzn.DB.TablaShape.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaShape</value>
+    <comment>Description for DomainClass &apos;TablaShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaShape.DisplayName" xml:space="preserve">
+    <value>Tabla Shape</value>
+    <comment>DisplayName for DomainClass &apos;TablaShape&apos;</comment>
+  </data>
+  <data name="TablaShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="edzzn.DB.ProcedimientoAlmacenadoShape.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.ProcedimientoAlmacenadoShape</value>
+    <comment>Description for DomainClass &apos;ProcedimientoAlmacenadoShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ProcedimientoAlmacenadoShape.DisplayName" xml:space="preserve">
+    <value>Procedimiento Almacenado Shape</value>
+    <comment>DisplayName for DomainClass &apos;ProcedimientoAlmacenadoShape&apos;</comment>
+  </data>
+  <data name="ProcedimientoAlmacenadoShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="edzzn.DB.VistaShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;VistaShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.VistaShape.DisplayName" xml:space="preserve">
+    <value>Vista Shape</value>
+    <comment>DisplayName for DomainClass &apos;VistaShape&apos;</comment>
+  </data>
+  <data name="VistaShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="edzzn.DB.RelacionShape.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.RelacionShape</value>
+    <comment>Description for DomainClass &apos;RelacionShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionShape.DisplayName" xml:space="preserve">
+    <value>Relacion Shape</value>
+    <comment>DisplayName for DomainClass &apos;RelacionShape&apos;</comment>
+  </data>
+  <data name="RelacionShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="edzzn.DB.EventoShape.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.EventoShape</value>
+    <comment>Description for DomainClass &apos;EventoShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.EventoShape.DisplayName" xml:space="preserve">
+    <value>Evento Shape</value>
+    <comment>DisplayName for DomainClass &apos;EventoShape&apos;</comment>
+  </data>
+  <data name="EventoShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="edzzn.DB.TablaCompartmentShape.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaCompartmentShape</value>
+    <comment>Description for DomainClass &apos;TablaCompartmentShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaCompartmentShape.DisplayName" xml:space="preserve">
+    <value>Tabla Compartment Shape</value>
+    <comment>DisplayName for DomainClass &apos;TablaCompartmentShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaCompartmentShape/Nombre.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TablaCompartmentShape.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;TablaCompartmentShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TablaCompartmentShape/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;TablaCompartmentShape&apos;</comment>
+  </data>
+  <data name="TablaCompartmentShapeCamposTitle" xml:space="preserve">
+    <value>Campos</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="TablaCompartmentShapeClavePrimariaTitle" xml:space="preserve">
+    <value>Clave Primaria</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="TablaCompartmentShapeRelacionesTitle" xml:space="preserve">
+    <value>Relaciones</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="TablaCompartmentShapeTriggersTitle" xml:space="preserve">
+    <value>Triggers</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="TablaCompartmentShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="edzzn.DB.TriggerCompartmentShape.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TriggerCompartmentShape</value>
+    <comment>Description for DomainClass &apos;TriggerCompartmentShape&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerCompartmentShape.DisplayName" xml:space="preserve">
+    <value>Trigger Compartment Shape</value>
+    <comment>DisplayName for DomainClass &apos;TriggerCompartmentShape&apos;</comment>
+  </data>
+  <data name="TriggerCompartmentShapeTablasTitle" xml:space="preserve">
+    <value>Tablas</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="TriggerCompartmentShapeEventosTitle" xml:space="preserve">
+    <value>Eventos</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="TriggerCompartmentShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="edzzn.DB.ExampleConnector.Description" xml:space="preserve">
+    <value>Connector between the ExampleShapes. Represents ExampleRelationships on the Diagram.</value>
+    <comment>Description for DomainClass &apos;ExampleConnector&apos;</comment>
+  </data>
+  <data name="edzzn.DB.ExampleConnector.DisplayName" xml:space="preserve">
+    <value>Example Connector</value>
+    <comment>DisplayName for DomainClass &apos;ExampleConnector&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionTablaConnector.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.RelacionTablaConnector</value>
+    <comment>Description for DomainClass &apos;RelacionTablaConnector&apos;</comment>
+  </data>
+  <data name="edzzn.DB.RelacionTablaConnector.DisplayName" xml:space="preserve">
+    <value>Relacion Tabla Connector</value>
+    <comment>DisplayName for DomainClass &apos;RelacionTablaConnector&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferencesTableConnector.Description" xml:space="preserve">
+    <value>Descripción de edzzn.DB.TriggerReferencesTableConnector</value>
+    <comment>Description for DomainClass &apos;TriggerReferencesTableConnector&apos;</comment>
+  </data>
+  <data name="edzzn.DB.TriggerReferencesTableConnector.DisplayName" xml:space="preserve">
+    <value>Trigger References Table Connector</value>
+    <comment>DisplayName for DomainClass &apos;TriggerReferencesTableConnector&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>DB (*.DB)|*.DB</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>DB Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="edzzn.DB.DBDiagram.Description" xml:space="preserve">
+    <value>Description for edzzn.DB.DBDiagram</value>
+    <comment>Description for DomainClass &apos;DBDiagram&apos;</comment>
+  </data>
+  <data name="edzzn.DB.DBDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;DBDiagram&apos;</comment>
+  </data>
+  <data name="DBToolboxTab" xml:space="preserve">
+    <value>DB</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="ExampleElementToolboxItem" xml:space="preserve">
+    <value>ExampleElement</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ExampleElementToolboxTooltip" xml:space="preserve">
+    <value>Create an ExampleElement</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ExampleRelationshipToolboxItem" xml:space="preserve">
+    <value>ExampleRelationship</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ExampleRelationshipToolboxTooltip" xml:space="preserve">
+    <value>Drag between ExampleElements to create an ExampleRelationship</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="TablaToolboxItem" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="TablaToolboxTooltip" xml:space="preserve">
+    <value>Tabla</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="VistaToolboxItem" xml:space="preserve">
+    <value>Vista</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="VistaToolboxTooltip" xml:space="preserve">
+    <value>Vista</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ProcedimientoAlmacenadoToolboxItem" xml:space="preserve">
+    <value>ProcedimientoAlmacenado</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ProcedimientoAlmacenadoToolboxTooltip" xml:space="preserve">
+    <value>Procedimiento Almacenado</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionTablaConnectorToolboxItem" xml:space="preserve">
+    <value>RelacionTablaConnector</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionTablaConnectorToolboxTooltip" xml:space="preserve">
+    <value>Relacion Tabla Connector</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionToolboxItem" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionToolboxTooltip" xml:space="preserve">
+    <value>Relacion</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="TriggeTablaConnectorToolboxItem" xml:space="preserve">
+    <value>TriggeTablaConnector</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="TriggeTablaConnectorToolboxTooltip" xml:space="preserve">
+    <value>Trigge Tabla Connector</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EventoToolboxItem" xml:space="preserve">
+    <value>Evento</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EventoToolboxTooltip" xml:space="preserve">
+    <value>Evento</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="TriggerToolboxItem" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="TriggerToolboxTooltip" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ExampleElementToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ExampleRelationshipToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleconnectortoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="TablaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="VistaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ProcedimientoAlmacenadoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionTablaConnectorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="TriggeTablaConnectorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EventoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="TriggerToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

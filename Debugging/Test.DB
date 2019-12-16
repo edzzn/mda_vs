@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dBModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3a546f76-88c4-410e-93ba-b9f9d6080c70" xmlns="http://schemas.microsoft.com/dsltools/DB">
+  <tabla>
+    <dBModelTieneTabla Id="0190f052-c3a6-4838-bf03-7e9ee550713b">
+      <tabla Id="5219da53-5afb-4ed4-a066-ba8c42725d9c" nombre="Tabla1">
+        <campo>
+          <tablaTieneCampo Id="8bdb08a8-43fc-4e49-93fd-edb94e62831b">
+            <campo Id="8e35f504-8164-40fc-9558-ffbbf8cef11b" nombre="Campo1" />
+          </tablaTieneCampo>
+          <tablaTieneCampo Id="d3ab452c-7804-408d-9a44-9bb069f5bbab">
+            <campo Id="4153bb30-99f2-4efb-b144-0afe6f788921" nombre="Campo2" />
+          </tablaTieneCampo>
+        </campo>
+        <clavePrimaria>
+          <tablaTieneClavePrimaria Id="7618491d-71c3-4145-b2f8-61c29e6ea817">
+            <clavePrimaria Id="30179400-8968-425e-82f9-c934844390f9" nombre="ClavePrimaria1" />
+          </tablaTieneClavePrimaria>
+        </clavePrimaria>
+      </tabla>
+    </dBModelTieneTabla>
+    <dBModelTieneTabla Id="1e50699d-bf5a-4abb-be2a-0213d85be9a0">
+      <tabla Id="a4fba01e-7036-4e0a-9c4f-4e49d0c20748" nombre="Tabla2">
+        <campo>
+          <tablaTieneCampo Id="736df972-26ed-4682-9ed2-d362cda1f5cb">
+            <campo Id="4d3743c5-8673-4791-bf94-80eeef340dd8" nombre="Campo1" />
+          </tablaTieneCampo>
+        </campo>
+        <clavePrimaria>
+          <tablaTieneClavePrimaria Id="7f79b57c-9b91-4415-8d5d-089166416ed1">
+            <clavePrimaria Id="6c80c891-7967-49e3-aa2b-e27bdaab3509" nombre="ClavePrimaria1" />
+          </tablaTieneClavePrimaria>
+        </clavePrimaria>
+      </tabla>
+    </dBModelTieneTabla>
+    <dBModelTieneTabla Id="b670c6a8-808f-47b9-a17e-eb2103971e8a">
+      <tabla Id="83f52f3b-53f6-4e46-af12-448f4d353fea" nombre="Tabla3">
+        <campo>
+          <tablaTieneCampo Id="6d247833-6f81-4737-81fd-4bf4c2d78c9b">
+            <campo Id="81e0f314-0abe-4ee5-88a4-ccc384981ee4" nombre="Campo1" />
+          </tablaTieneCampo>
+        </campo>
+        <clavePrimaria>
+          <tablaTieneClavePrimaria Id="ef33e5b8-cc5e-4614-bbf6-ce5f40ebd4b1">
+            <clavePrimaria Id="fdcaf6f1-ade0-4c0b-ae51-ffc7b7027eb3" nombre="ClavePrimaria1" />
+          </tablaTieneClavePrimaria>
+        </clavePrimaria>
+      </tabla>
+    </dBModelTieneTabla>
+  </tabla>
+  <relacion>
+    <dBModelTieneRelacion Id="052077a9-0fc4-410e-aa45-cbb138a3dbec">
+      <relacion Id="74f317c9-fbac-4c16-b91f-d08e1fb6f0b2" nombre="Relacion1">
+        <tabla>
+          <relacionReferenciasTabla Id="b717709b-096f-4517-a3c0-2267473a215b">
+            <Tabla nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Tabla1" />
+          </relacionReferenciasTabla>
+          <relacionReferenciasTabla Id="8187fddb-cdd6-4278-ad39-9eec6ab10366">
+            <Tabla nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Tabla2" />
+          </relacionReferenciasTabla>
+          <relacionReferenciasTabla Id="fc824bed-bafe-4d20-9c9c-26c6cbc9749c">
+            <Tabla nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Tabla3" />
+          </relacionReferenciasTabla>
+        </tabla>
+      </relacion>
+    </dBModelTieneRelacion>
+  </relacion>
+  <trigger>
+    <dBModelTieneTrigger Id="3f0cc1b0-4f25-4eb8-b149-dce2646e2e2a">
+      <trigger Id="c87853f9-ee3c-4b26-b79a-ac75e35476f2" nombre="Trigger1">
+        <evento>
+          <triggerTieneEvento Id="b560464c-819e-4c2d-8850-f096acfc6240">
+            <evento Id="c2e574a7-c0ba-435a-8c72-86c01cbb4feb" nombre="Evento1" />
+          </triggerTieneEvento>
+        </evento>
+        <tabla>
+          <triggerReferenciasTabla Id="4b8a78d2-5bb2-499f-abc3-c395e9124c05">
+            <Tabla nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Tabla3" />
+          </triggerReferenciasTabla>
+          <triggerReferenciasTabla Id="77cc9d74-2ff8-4876-91c6-82e3448bd4a7">
+            <Tabla nombre="/3a546f76-88c4-410e-93ba-b9f9d6080c70/Tabla1" />
+          </triggerReferenciasTabla>
+        </tabla>
+      </trigger>
+    </dBModelTieneTrigger>
+  </trigger>
+</dBModel>
